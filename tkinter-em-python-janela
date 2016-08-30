@@ -1,0 +1,8 @@
+import tkinter
+
+janela = tkinter.Tk()
+janela.title('Janela Principal')
+janela['bg'] = 'green'
+janela.geometry('400x300+800+500')
+
+janela.mainloop()
